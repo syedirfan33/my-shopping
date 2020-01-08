@@ -4,7 +4,7 @@ A Malaysian e-commerce website
 # How to setup:
 Clone the project in your favorite IDE.
 
-Run Application.java as Spring Boot App, for ease embedded Tomcat server has been used. To run the application on Jboss server, do a mvn clean install and copy the war file file <source directory>/targer/my-shopping.war into JBOSS deployments folder.
+Run Application.java as Spring Boot App, for ease embedded Tomcat server has been used. To run the application on Jboss server, do a mvn clean install and copy the war file file <source directory>/targer/my-shopping.war into JBOSS deployments folder (change MySQL credentials accordingly)
 
 Open swagger and browse through
 
@@ -34,8 +34,19 @@ spring-data-jpa and validations
 
 # Future enhancements
 
-Pagination
+Pagination support
 
 Lucene and Hiberante Search impl for faster Product searching
 
 User management endpoints
+
+# class diagram
+
+![alt text](https://github.com/syedirfan33/my-shopping/blob/master/classDiagram.png)
+
+# Swagger sample
+
+![alt text](https://github.com/syedirfan33/my-shopping/blob/master/swagger.png)
+
+
+
