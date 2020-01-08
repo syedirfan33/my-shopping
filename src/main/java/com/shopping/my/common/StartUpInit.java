@@ -34,7 +34,6 @@ public class StartUpInit {
 		} catch (Exception e) {
 			log.info("An error occured while start up initialization!");
 			log.info(e.getMessage());
-			e.printStackTrace();
 		}
 	}
 }
