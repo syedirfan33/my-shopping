@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.shopping.my.controller.ProductController" project="My-Shopping" 
+    file="/My-Shopping/src/main/java/com/shopping/my/controller/ProductController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="328" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.shopping.my.service.product.ProductService" project="My-Shopping" 
+    file="/My-Shopping/src/main/java/com/shopping/my/service/product/ProductService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="156" width="322" x="171" y="9"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.shopping.my.controller.AuthController" project="My-Shopping" 
+    file="/My-Shopping/src/main/java/com/shopping/my/controller/AuthController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="216" width="390" x="662" y="204"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.shopping.my.controller.ConfigController" project="My-Shopping" 
+    file="/My-Shopping/src/main/java/com/shopping/my/controller/ConfigController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="324" x="1092" y="204"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="com.shopping.my.service.common.SecurityService" project="My-Shopping" 
+    file="/My-Shopping/src/main/java/com/shopping/my/service/common/SecurityService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="277" x="289" y="504"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="6" language="java" name="com.shopping.my.service.common.TokenService" project="My-Shopping" 
+    file="/My-Shopping/src/main/java/com/shopping/my/service/common/TokenService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="855" y="551"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="7" language="java" name="org.springframework.security.crypto.password.PasswordEncoder" 
+    project="My-Shopping" 
+    file="C:/Users/11street163/.m2/repository/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1285" y="555"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="com.shopping.my.service.config.ConfigService" project="My-Shopping" 
+    file="/My-Shopping/src/main/java/com/shopping/my/service/config/ConfigService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="136" width="314" x="1023" y="-11"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <association id="9">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="10" name="passwordEncoder"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="12">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="13" name="prdService"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="16" name="securityService"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="19" name="tokenService"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="21">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="22" name="service"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
