@@ -1,0 +1,18 @@
+[
+	{
+		"ctgrName": "Pump",
+		"ctgrLevel": 2,
+		"ctgrName1": "Shoes",
+		"ctgrName2": "Pump",
+		"ctgrName3": "",
+		"ctgrCode": "001001"
+	},
+	{
+		"ctgrName": "Golf",
+		"ctgrLevel": 3,
+		"ctgrName1": "Women",
+		"ctgrName2": "Shoes",
+		"ctgrName3": "Golf",
+		"ctgrCode": "002001001"
+	}
+]
