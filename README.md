@@ -34,7 +34,7 @@ spring-data-jpa and validations
 
 # Future enhancements
 
-Pagination support
+Pagination , sorting and caffein cache support
 
 Lucene and Hiberante Search impl for faster Product searching
 
